@@ -1,0 +1,17 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.insertSpaces": true,
+	"editor.rulers": [120],
+	"editor.detectIndentation": false,
+	"files.insertFinalNewline": true,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"thunder-client.saveToWorkspace": true,
+	"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
