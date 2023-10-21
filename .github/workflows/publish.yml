@@ -1,10 +1,6 @@
 name: Publish to gh-pages
 
-on:
-  repository_dispatch:
-  push:
-    branches:
-      - gh-pages
+on: workflow_dispatch
 
 jobs:
   build:
