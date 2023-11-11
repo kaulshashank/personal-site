@@ -9,7 +9,9 @@ interface LinkButtonProps {
 export function LinkButton(props: LinkButtonProps) {
   const { text, icon, link } = props;
   return (
-    <div
+    <a
+      href={link}
+      target="_blank"
       css={css`
         background-color: var(--white);
         border-radius: var(--border-radius);
@@ -33,10 +35,9 @@ export function LinkButton(props: LinkButtonProps) {
 
         box-shadow: var(--elevation-2);
       `}
-      onClick={() => window.open(link)}
     >
       {icon}
       <h4>{text}</h4>
-    </div>
+    </a>
   );
 }
