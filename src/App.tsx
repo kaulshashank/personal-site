@@ -25,9 +25,9 @@ function App() {
           <h1>Hi!</h1>
           <h3>You can find me on the internet at</h3>
           <LinkButton
-            text="@kaulshashank96"
+            text="@kaulsh"
             icon={ICONS.twitter}
-            link="https://www.twitter.com/kaulshashank96"
+            link="https://www.twitter.com/kaulsh"
           />
           <LinkButton
             text="bsky: @shashank.gg"
